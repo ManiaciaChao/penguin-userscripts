@@ -57,6 +57,7 @@ const baiduReplacer = {
         );
         return iconElement;
     },
+
     jump(host) {
         location.href = this.keyword
             ? `${this.https}${host}/search?q=${this.keyword}`
